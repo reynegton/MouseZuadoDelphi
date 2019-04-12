@@ -70,9 +70,6 @@ begin
       RandonAbaixo := random(1000) mod 2 = 0;
       if RandonAbaixo then
         randonY := -1*randonY;
-
-
-
       SetCursorPos(pt.X+randonX,pt.y+randonY);
     end;
   end;
