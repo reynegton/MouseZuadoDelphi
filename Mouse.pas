@@ -77,6 +77,7 @@ end;
 
 procedure TForm1.Timer2Timer(Sender: TObject);
 begin
+  Timer2.Interval :=  random(60000);
   Timer1.Enabled := not Timer1.Enabled;
 end;
 
