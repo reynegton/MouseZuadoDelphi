@@ -1,0 +1,6 @@
+syntax: glob
+MouseZ.~dpr
+Mouse.~ddp
+Mouse.~dfm
+Mouse.~pas
+MouseZ.cfg
